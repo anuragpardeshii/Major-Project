@@ -15,8 +15,8 @@ const listingSchema = new Schema({
         },
         url: {
             type: String, // URL is a string
-            default: "https://via.placeholder.com/150", // Default URL for the image
-            set: (v) => (v ? v : "https://via.placeholder.com/150"), // Default URL if empty
+            default : "https://assets.goal.com/images/v3/bltefb34c50efb4bc67/Man%20United%20POTY%202024.jpg?auto=webp&format=pjpg&width=3840&quality=60", // Default URL for the image
+            set : (v) => (v ? v : "https://assets.goal.com/images/v3/bltefb34c50efb4bc67/Man%20United%20POTY%202024.jpg?auto=webp&format=pjpg&width=3840&quality=60"), // Default URL if empty
         },
     },
     price: {
